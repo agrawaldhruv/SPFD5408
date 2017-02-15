@@ -21,9 +21,9 @@
 // **** IF USING THE LCD BREAKOUT BOARD, COMMENT OUT THIS NEXT LINE. ****
 // **** IF USING THE LCD SHIELD, LEAVE THE LINE ENABLED:             ****
 
-// *** SPFD5408 change -- Begin
-//#define USE_ADAFRUIT_SHIELD_PINOUT 1
-// -- End
+ *** SPFD5408 change -- Begin
+#define USE_ADAFRUIT_SHIELD_PINOUT 1
+ -- End
 
 class Adafruit_TFTLCD : public Adafruit_GFX {
 
